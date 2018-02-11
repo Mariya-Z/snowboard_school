@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<title>Ice-ace</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Ice-ace</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 
 <body>
 <div class="promo">
-  <div class="promo__container">
+  <div class="container">
     <h1 class="promo__title">
       Школа сноуборда и горных лыж
       <span class="promo__text">
         в Санкт-Петербурге
-    </span>
+      </span>
     </h1>
   </div>
 </div>
 
 <header>
-	<div class="container">
+	<div class="header">
   <div class="logo">
-    <img class="logo__img" src="http://via.placeholder.com/100x50" alt="ice-ace.logo" >
+    <img class="logo__img" src="img/logo.jpg" alt="ice-ace.logo" >
   </div>
   <nav class="main-nav">
-    <ul>
-      <li><a href="#" class="main-nav__topic">Расписание</a></li>
-      <li><a href="#" class="main-nav__topic">Инструкторы</a></li>
-      <li><a href="#" class="main-nav__topic">Стоимость</a></li>
-      <li><a href="#" class="main-nav__topic">Как добраться</a></li>
+    <ul class="main-nav__list">
+      <li class="main-nav__item"><a class="main-nav__link" href="#" class="main-nav__topic">Расписание</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#" class="main-nav__topic">Инструкторы</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#" class="main-nav__topic">Стоимость</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#" class="main-nav__topic">Как добраться</a></li>
     </ul>
   </nav>
-  <div class="phone">
-    <a href="tel:88008008080" class="phone_link">8 (800) 800-80-80</a>
+  <div class="contacts">
+    <a href="tel:88008008080" class="contacts__link">8 (800) 800-80-80</a>
+    <a href="#" class="btn btn--float-right">Записаться</a>
   </div>
-  <a href="#" class="btn">Записаться</a>
+
   </div>
 </header>
 
@@ -44,50 +47,49 @@
       <h2 class="services__title">Наши услуги</h2>
       <p class="services__description">Для взрослых и детей 6+ / любого уровня подготовки</p>
       <div class="services__content">
-        <article class="services--vertical">
-          <div class="services__photo">
-            <img src="http://via.placeholder.com/350x150" alt="img">
+        <article class="service">
+          <div class="service__photo">
+            <img src="img/services_img1.jpg" alt="img">
           </div>
           <div class="service__info">
-            <h3>Разовое посещение</h3>
-            <p>Впервые здесь? тогда эта возможность точно для вас. Приходите на разовое занятие и проникнетесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия ма определим ваш уровень и прикинем план занятий</p>
+            <h3 class="service__title">Разовое посещение</h3>
+            <p class="service__description">Впервые здесь? тогда эта возможность точно для вас. Приходите на разовое занятие и проникнетесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия ма определим ваш уровень и прикинем план занятий</p>
 
-            <div class="services__links">
+            <div class="service__links">
               <span>3 часа</span>
               <a href="#" class="more">
-                <img src="#" alt="arrow">
+                <img src="img/right-arrow.jpg" alt="arrow">
               </a>
             </div>
           </div>
         </article>
-        <article class="services--horizontal">
-          <div class="services__photo">
-            <img src="http://via.placeholder.com/350x150" alt="img">
+        <article class="service service--horizontal">
+          <div class="service__photo">
+            <img src="img/services_img2.jpg" alt="img">
           </div>
-          <div class="services__info">
-            <h3 class="services__title">>Краткий курс</h3>
-            <p class="services__description">Экспрес курс расситан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники и получить лайфхаки "как каткться как емпион" от опытных инструкторов, подходит как для новичков, так и для более опытных</p>
+          <div class="service__info">
+            <h3 class="service__title">Краткий курс</h3>
+            <p class="service__description">Экспрес курс расситан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники и получить лайфхаки "как каткться как емпион" от опытных инструкторов, подходит как для новичков, так и для более опытных</p>
 
-            <div class="services__links">
+            <div class="service__links">
               <span>5 занятий</span>
               <a href="#" class="more">
-                <img src="#" alt="arrow">
+                <img src="img/right-arrow.jpg" alt="arrow">
               </a>
             </div>
           </div>
-
         </article>
-        <article class="services--horizontal">
-          <div class="services__photo">
-            <img src="http://via.placeholder.com/350x150" alt="img">
+        <article class="service service--horizontal">
+          <div class="service__photo">
+            <img src="img/services_img3.jpg" alt="img">
           </div>
-          <div class="services__info">
-            <h3 class="services__title">>Полный курс</h3>
-            <p class="services__description">Продвинутый курс для самых вдохновленных горными дыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
-            <div class="services__links">
+          <div class="service__info">
+            <h3 class="service__title">Полный курс</h3>
+            <p class="service__description">Продвинутый курс для самых вдохновленных горными дыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
+            <div class="service__links">
               <span>10 занятий</span>
               <a href="#" class="more">
-                <img src="#" alt="arrow">
+                <img src="img/right-arrow.jpg" alt="arrow">
               </a>
             </div>
           </div>
@@ -108,7 +110,7 @@
         </section>
         <section>
           <div class="advantages__photo"><img src="http://via.placeholder.com/100x50" alt="adv_logo"></div>
-          <div class="advantags__info">
+          <div class="advantages__info">
             <span class="advantages__cathphrase">Опытные инструкторы</span>
             <p class="advantages__descr">У всех инструкторов школы есть международный сертификат, который дает право обучать катанию на сноуборде и горных лыжах</p>
           </div>
@@ -148,7 +150,7 @@
   <section class="sales">
     <div class="sales__container">
       <h2 class="sales__title">Скидки на абонементы</h2>
-      <div class="saleS__content">
+      <div class="sales__content">
         <div class="sales__info">
           <p class="sales__cathphrase">Поробуй</p>
           <p class="sales__descr">Дарим скидку 5% новичкам, прошедшим разовое занятие</p>
@@ -194,10 +196,10 @@
     <img src="http://via.placeholder.com/100x50" alt="ice-ace.logo" class="logo_img">
     <div class="copyright">(c)2017 Ice ace - школа сноуборда и горных лыж. Все права защищены</div>
     <div class="social-networks">
-      <img src="http://via.placeholder.com/50x50" alt="youTube" class="social-network">
-      <img src="http://via.placeholder.com/50x50" alt="instagram" class="social-network">
-      <img src="http://via.placeholder.com/50x50" alt="facebook" class="social-network">
-      <img src="http://via.placeholder.com/50x50" alt="vk" class="social-network">
+      <img src="http://via.placeholder.com/50x50" alt="youTube" class="social-network__logo">
+      <img src="http://via.placeholder.com/50x50" alt="instagram" class="social-network__logo">
+      <img src="http://via.placeholder.com/50x50" alt="facebook" class="social-network__logo">
+      <img src="http://via.placeholder.com/50x50" alt="vk" class="social-network__logo">
     </div>
     <div class="contacts">
       <div class="phone">
