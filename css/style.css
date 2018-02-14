@@ -4,6 +4,11 @@ font-family: "Futura";
   font-style: bold;
   font-weight: 600;
 }
+/*CONTAINER*/
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
 /*PROMO*/
 .promo {
   background-image: url("../img/promo_bg.jpg");
@@ -19,6 +24,7 @@ font-family: "Futura";
   font-size: 50px;
   width: 500px;
   padding: 100px 0 0 55px;
+  margin: 0;
 }
 
 .promo__text {
@@ -28,6 +34,10 @@ font-family: "Futura";
   margin-top: 50px;
 }
 /*SERVICES*/
+.service {
+  width: 360px;
+  display: inline-block;
+}
 .services__title {
   font-family: Futura;
   font-size: 40px;
@@ -46,15 +56,66 @@ font-family: "Futura";
 {
   font-family: 'PT Sans', sans-serif;
 }
+.service__link {
+  font-family: Futura;
+  font-size: 20px;
+}
+
 /*ADVANTAGES*/
-.advantages__descr
+.advantages__title {
+  font-family: Futura;
+  font-size: 40px;
+}
+
+.advantages__cathphrase
 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: Futura;
+  font-size: 20px;
 }
 
 .advantages__descr
 {
   font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+}
+/*SALES*/
+.sales {
+  background-image: url("../img/sales_bg.jpg");
+  color: #fff;
+}
+.sales__title {
+  font-family: Futura;
+  font-size: 40px;
+}
+
+.sales__cathphrase {
+  font-family: Futura;
+  font-size: 22px;
+}
+
+.sales__descr {
+  font-family: Futura;
+  font-size: 20px;
+}
+/*TEAM*/
+.team {
+  background-image: url("../img/team_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  margin: 0 auto;
+}
+.team__title {
+  font-family: Futura;
+  font-size: 40px;
+}
+
+.team__descr {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+}
+.highlighter {
+  color: #74e196;
 }
 
 .services
@@ -119,6 +180,7 @@ ul {
 .contacts__link {
   font-size: 22px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .btn {
@@ -129,10 +191,21 @@ ul {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
-  transform: uppercase;
+  text-transform: uppercase;
   border: 2px solid #000;
+  text-decoration: none;
+  color: #74e196;
 }
 
 .btn--float-right {
   float: right;
+}
+/*FOOTER*/
+footer {
+  background-image: url("../img/footer_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0;
+  color: #fff;
+  height: 645px;*/
 }
