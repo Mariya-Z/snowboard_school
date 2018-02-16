@@ -1,5 +1,5 @@
 @font-face {
-font-family: "Futura";
+  font-family: "Futura";
   src: url("../fonts/FUTURABOLD.TTF") format("truetype");
   font-style: bold;
   font-weight: 600;
@@ -34,10 +34,20 @@ font-family: "Futura";
   margin-top: 50px;
 }
 /*SERVICES*/
+.services__content {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+}
 .service {
   width: 360px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
+/*.service--horizontal {
+  display: flex;
+  flex-direction: row;
+}*/
 .services__title {
   font-family: Futura;
   font-size: 40px;
@@ -78,6 +88,13 @@ font-family: "Futura";
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
 }
+.advantages__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantage {
+width: 33%;
+}
 /*SALES*/
 .sales {
   background-image: url("../img/sales_bg.jpg");
@@ -114,6 +131,22 @@ font-family: "Futura";
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
 }
+/*COMUNITY*/
+.community__title {
+  font-family: Futura;
+  font-size: 40px;
+}
+.community__descr {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+}
+/*IMAGES*/
+.images_title{
+  font-family: Futura;
+  font-size: 40px;
+  /*font-style: bold;*/
+}
+/**/
 .highlighter {
   color: #74e196;
 }
