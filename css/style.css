@@ -35,8 +35,9 @@
 }
 /*SERVICES*/
 .services__content {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: stretch;
 }
 .service {
@@ -53,18 +54,19 @@
   font-size: 40px;
 }
 
-.services__description {
-  font-family: Futura;
-}
-
 .service__title {
   font-family: Futura;
   font-size: 20px;
+  text-align: center;
 }
-
+/*.service__photo {
+  width: 360px;
+  height: 245px;
+}*/
 .service__description
 {
   font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
 }
 .service__link {
   font-family: Futura;
@@ -72,6 +74,10 @@
 }
 
 /*ADVANTAGES*/
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
 .advantages__title {
   font-family: Futura;
   font-size: 40px;
@@ -93,12 +99,19 @@
   flex-wrap: wrap;
 }
 .advantage {
-width: 33%;
+  width: 33%;
 }
 /*SALES*/
 .sales {
   background-image: url("../img/sales_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.sales__content {
+  display: flex;
 }
 .sales__title {
   font-family: Futura;
@@ -121,6 +134,9 @@ width: 33%;
   background-size: cover;
   height: 650px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .team__title {
   font-family: Futura;
@@ -132,6 +148,11 @@ width: 33%;
   font-size: 15px;
 }
 /*COMUNITY*/
+.community {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .community__title {
   font-family: Futura;
   font-size: 40px;
@@ -141,7 +162,13 @@ width: 33%;
   font-size: 15px;
 }
 /*IMAGES*/
+.images {
+  display: flex;
+  flex-direction: column;
+}
 .images_title{
+  display: flex;
+  flex-direction: row;
   font-family: Futura;
   font-size: 40px;
   /*font-style: bold;*/
