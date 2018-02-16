@@ -52,25 +52,33 @@
 .services__title {
   font-family: Futura;
   font-size: 40px;
-}
-
-.service__title {
-  font-family: Futura;
-  font-size: 20px;
   text-align: center;
 }
+
 /*.service__photo {
   width: 360px;
   height: 245px;
 }*/
+.services__description
+{
+  font-family: Futura;
+  font-size: 20px;
+  text-align: center;
+}
 .service__description
 {
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
 }
+.service__links {
+  display: block;
+}
 .service__link {
   font-family: Futura;
   font-size: 20px;
+}
+.service__img {
+  float: right;
 }
 
 /*ADVANTAGES*/
