@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/FUTURABOLD.TTF") format("truetype");
+  font-style: bold;
+  font-weight: 600;
+}
+
+/*CONTAINER*/
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 35px 0;
+  font-family: Futura;
+}
+
+.logo {
+  float: left;
+  width: 160px;
+}
+
+.logo__img {
+  display: block;
+  width:  100%;
+}
+
+.main-nav {
+  float: left;
+  width: 620px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.main-nav__link {
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contacts {
+  float: right;
+  width: 380px;
+}
+
+.contacts: after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.contacts__link {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  float: left;
+  width: 135px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #74e196;
+}
+
+.btn--float-right {
+  float: right;
+}
